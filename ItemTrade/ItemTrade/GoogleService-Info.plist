@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>46365317564-2aolj477h4n3vk7qidlg3rdbc4l3ianv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.46365317564-2aolj477h4n3vk7qidlg3rdbc4l3ianv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>46365317564-9t73m4p020fi8rv460su7p1vir0htotr.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAAV2-iBj1hHFLt3rqEsVGoxOZbG0BPluM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>46365317564</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ismetalp.ItemTrade</string>
+	<key>PROJECT_ID</key>
+	<string>bilkent-acm</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bilkent-acm.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:46365317564:ios:8132e442b6b26b6ddf33b9</string>
+	<key>DATABASE_URL</key>
+	<string>https://bilkent-acm.firebaseio.com</string>
+</dict>
+</plist>

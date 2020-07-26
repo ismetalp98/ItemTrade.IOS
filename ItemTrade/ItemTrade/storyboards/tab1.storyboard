@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rXX-dd-DIq">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab1 View Controller-->
+        <scene sceneID="5tj-18-p9z">
+            <objects>
+                <viewController id="rXX-dd-DIq" customClass="Tab1ViewController" customModule="ItemTrade" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ri-B5-q09">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hdK-dR-A2s">
+                                <rect key="frame" x="0.0" y="44" width="375" height="685"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eZ2-DF-CgJ">
+                                    <size key="itemSize" width="321" height="170"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="15" minY="15" maxX="15" maxY="15"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="rXX-dd-DIq" id="CVh-xH-tqj"/>
+                                    <outlet property="delegate" destination="rXX-dd-DIq" id="kEC-x7-Jbn"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hdK-dR-A2s" firstAttribute="top" secondItem="V0N-Z6-w1q" secondAttribute="top" id="5uE-dM-MqT"/>
+                            <constraint firstAttribute="trailing" secondItem="hdK-dR-A2s" secondAttribute="trailing" id="GyY-iZ-3VY"/>
+                            <constraint firstItem="hdK-dR-A2s" firstAttribute="leading" secondItem="V0N-Z6-w1q" secondAttribute="leading" id="Q37-Va-3CA"/>
+                            <constraint firstItem="hdK-dR-A2s" firstAttribute="bottom" secondItem="V0N-Z6-w1q" secondAttribute="bottom" id="iCm-JM-uAN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="V0N-Z6-w1q"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="e3c-Ip-teV"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="collectionView" destination="hdK-dR-A2s" id="DVz-L9-QaB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8QO-Bc-yp3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3628" y="-237.03148425787109"/>
+        </scene>
+    </scenes>
+</document>
