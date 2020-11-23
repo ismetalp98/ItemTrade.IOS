@@ -9,11 +9,12 @@
 * FirebaseFirestore
 
 #### Application properties 
-* Instant messaging and Item details completed but other part almost completed.
-* Create user 
-* Update user properties(pp,email,password) 
-* Send message to Item owner to buy Item 
-* Instant messaging 
-* Instant notifications 
-* Delete messages
+* Create user (c)
+* Add Item (c)
+* Update user properties(pp,email,password) (nc)
+* Send message to Item owner to buy Item (c)
+* Instant messaging (c)
+* Instant messaging, competible with ItemTrade(android app) (c)
+* Instant notifications (nc)
+* Delete messages (c)
 
